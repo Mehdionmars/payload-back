@@ -19,14 +19,6 @@ const Pages: CollectionConfig = {
       type: 'text',
       required: true,
     },
-    {
-      name: 'layout',
-      label: 'layout',
-      type: 'blocks',
-      blocks: [
-        
-      ]
-    },
   ],
 };
 

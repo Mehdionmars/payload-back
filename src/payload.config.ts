@@ -11,6 +11,7 @@ import Posts from './collections/Posts'
 import Uploads from './collections/Uploads'
 import Pages from './collections/Pages'
 import {Docs} from './collections/Docs'
+import { Media } from './collections/Media'
 
 export default buildConfig({
   admin: {
@@ -25,6 +26,7 @@ export default buildConfig({
     Uploads,
     Pages,
     Docs,
+    Media,
   ],
   typescript: {
     outputFile: path.resolve(__dirname, 'payload-types.ts'),
